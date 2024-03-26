@@ -2,7 +2,7 @@
 This project is a fork of the original [currency-edittext](https://github.com/AbhinayMe/currency-edittext) repository by [Abhinay Me](https://github.com/AbhinayMe).
 A Custom EditText implementation that allows formatting of currency-based numeric inputs.
 
-## 💻 Installation
+## Installation
 Add this in your app's build.gradle file:
 ```groovy
 dependencies {
@@ -16,7 +16,7 @@ XML
 
 ```
 <com.github.joelarmah.currency.CurrencyEditText
-        android:id="@+id/etInput"
+        android:id="@+id/currencyEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Type value"
@@ -33,14 +33,13 @@ Code
         val view = viewBinding.root
         setContentView(view)
 
-        mActivity = this
-        mContext = this
-
-        viewBinding.currencyEditText.setCurrency(CurrencySymbols.USA)
-        viewBinding.currencyEditText.setDelimiter(false)
-        viewBinding.currencyEditText.setSpacing(false)
-        viewBinding.currencyEditText.setDecimals(true)
-        viewBinding.currencyEditText.setSeparator(".")
+       viewBinding.currencyEditText.apply {
+            setCurrency(CurrencySymbols.GHANA)
+            setDelimiter(false)
+            setSpacing(false)
+            setDecimals(true)
+            setSeparator(".")
+        }
 }
 ```
 
@@ -59,13 +58,13 @@ The following attributes can be manipulated:
 Specify the currency by setting the country of your choice.
 
 ```
-etInput.Currency = Currency.MALAYSIA;
+currencyEditText.Currency = Currency.GHANA;
 ```
 
 Currency can also be disabled by:
 
 ```
-etInput.Currency = Currency.NONE;
+currencyEditText.Currency = Currency.NONE;
 ```
 
 #### Custom Currency/Symbol
@@ -73,7 +72,7 @@ etInput.Currency = Currency.NONE;
 If a custom symbol that is not included in the library is required, any string value can be used since the the `Currency` attribute expects a `String` value.
 
 ```
-etInput.Currency = "TEST";
+currencyEditText.Currency = "TEST";
 ```
 
 Which produces:
@@ -86,7 +85,7 @@ Which produces:
 The spacing between the currency and the value can be specified by:
 
 ```
-etInput.Spacing = true;
+currencyEditText.Spacing = true;
 ```
 
 **Note:** Spacing is `false` by default.
@@ -106,7 +105,7 @@ The delimeter attribute allows the addition of a `.` symbol after displaying the
 Decimals can be turned off for the EditText using:
 
 ```
-etInput.Decimals = false;
+currencyEditText.Decimals = false;
 ```
 
 This outputs the following:
@@ -123,8 +122,8 @@ The Thousands Separator can be customized as required with any custom symbol to 
 
 A `Double` value without Commas, Currency and Decimal places can be retrieved using:
 
-`double cleanOutput = etInput.getCleanDoubleValue();`
+`double cleanOutput = currencyEditText.getCleanDoubleValue();`
 
 An `Integer` value without Commas, Currency and Decimal places can be retrieved using:
 
-`int cleanOutput = etInput.getCleanIntValue();`
+`int cleanOutput = currencyEditText.getCleanIntValue();`

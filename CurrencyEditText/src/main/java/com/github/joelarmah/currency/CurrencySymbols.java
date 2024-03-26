@@ -19,6 +19,8 @@ public class CurrencySymbols {
     public static String PHILIPPINES = "₱";
     public static String PAKISTAN = "₨";
 
+    public static String GHANA = "¢";
+
     public CurrencySymbols(Context mContext) {
         this.mContext = mContext;
     }

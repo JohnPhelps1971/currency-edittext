@@ -10,6 +10,11 @@
           <theme>@style/Theme.Currencyedittext</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/sample/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.Currencyedittext</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
@@ -17,64 +22,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7ddc5bf-6a93-48ae-8527-b793ac94072e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CurrencyEditText/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyEditText/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CurrencyEditText/src/main/java/me/abhinay/CurrencyEditText.java" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyEditText/src/main/java/com/github/joelarmah/currency/CurrencyEditText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CurrencyEditText/src/main/java/me/abhinay/CurrencySymbols.java" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyEditText/src/main/java/com/github/joelarmah/currency/CurrencySymbols.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CurrencyEditText/src/main/java/me/abhinay/CurrencyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyEditText/src/main/java/com/github/joelarmah/currency/CurrencyUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CurrencyEditText/src/main/java/me/abhinay/models/CurrencyModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyEditText/src/main/java/com/github/joelarmah/currency/models/CurrencyModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyEditText/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyEditText/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyEditText/src/main/java/com/github/joelarmah/currency/CurrencySymbols.java" beforeDir="false" afterPath="$PROJECT_DIR$/CurrencyEditText/src/main/java/com/github/joelarmah/currency/CurrencySymbols.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/ic_launcher-playstore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/java/me/abhinay/input/sample/java/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/values/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-java/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/sample/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sample/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/sample/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/ic_launcher-playstore.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/java/me/abhinay/input/sample/kotlin/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/java/com/github/joelarmah/currency/sample/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/values/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-kotlin/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/src/main/java/com/github/joelarmah/currency/sample/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sample/src/main/java/com/github/joelarmah/currency/sample/MainActivity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +79,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "chore/initial-setup",
+    "git-widget-placeholder": "chore/clean-up",
     "last_opened_file_path": "/Users/joel/AndroidStudioProjects/currency-edittext",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",

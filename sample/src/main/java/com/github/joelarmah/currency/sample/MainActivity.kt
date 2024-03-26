@@ -1,7 +1,5 @@
 package com.github.joelarmah.currency.sample
 
-import android.app.Activity
-import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
@@ -13,8 +11,6 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var mActivity: Activity
-    private lateinit var mContext: Context
     private lateinit var viewBinding: ActivityMainBinding
 
     companion object {
@@ -26,14 +22,13 @@ class MainActivity : AppCompatActivity() {
         val view = viewBinding.root
         setContentView(view)
 
-        mActivity = this
-        mContext = this
-
-        viewBinding.currencyEditText.setCurrency(CurrencySymbols.USA)
-        viewBinding.currencyEditText.setDelimiter(false)
-        viewBinding.currencyEditText.setSpacing(false)
-        viewBinding.currencyEditText.setDecimals(true)
-        viewBinding.currencyEditText.setSeparator(".")
+        viewBinding.currencyEditText.apply {
+            setCurrency(CurrencySymbols.GHANA)
+            setDelimiter(false)
+            setSpacing(false)
+            setDecimals(true)
+            setSeparator(".")
+        }
 
         viewBinding.btnProcess.setOnClickListener {
             if (viewBinding.currencyEditText.length() != 0) {
@@ -43,7 +38,7 @@ class MainActivity : AppCompatActivity() {
                 writeLog("Clean Double  : $cleanDoubleOutput")
                 writeLog("Clean Integer : $cleanIntOutput")
             } else {
-                Toast.makeText(mContext, "Input cannot be empty.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@MainActivity, "Input cannot be empty.", Toast.LENGTH_SHORT).show()
             }
         }
     }

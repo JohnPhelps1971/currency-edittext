@@ -23,11 +23,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         viewBinding.currencyEditText.apply {
-            setCurrency(CurrencySymbols.GHANA)
-            setDelimiter(false)
-            setSpacing(false)
-            setDecimals(true)
-            setSeparator(".")
+             setCurrency(CurrencySymbols.GHANA)
+             setDelimiter(false)
+             setSpacing(false)
+             setDecimals(true)
+             setSeparator(".")
         }
 
         viewBinding.btnProcess.setOnClickListener {

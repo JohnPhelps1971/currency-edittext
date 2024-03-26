@@ -43,7 +43,7 @@ public class CurrencyEditText extends AppCompatEditText {
     }
 
     private void init(Context context, AttributeSet attrs) {
-        init(context, attrs, null, null, null, null, null);
+        init(context, attrs, "", ",", false, false, true);
     }
 
     private void init(Context context, AttributeSet attrs, String currency, String separator, Boolean spacing, Boolean delimiter, Boolean decimals) {

@@ -7,12 +7,18 @@ plugins {
 android {
     defaultConfig {
         minSdkVersion 21
+        aarMetadata {
+            minCompileSdk = 29
+        }
         targetSdkVersion 34
         compileSdk 34
-        versionCode 3
-        versionName "1.1.0"
-
         consumerProguardFiles "consumer-rules.pro"
+    }
+
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+        }
     }
 
     buildTypes {
@@ -26,13 +32,17 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = '17'
+        jvmTarget = '1.8'
     }
+    testFixtures {
+        enable = true
+    }
+    namespace 'com.github.joelarmah.currency'
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
     implementation 'androidx.core:core-ktx:1.13.1'
 }
 

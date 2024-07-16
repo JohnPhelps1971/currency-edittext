@@ -32,8 +32,8 @@ class MainActivity : AppCompatActivity() {
 
         viewBinding.btnProcess.setOnClickListener {
             if (viewBinding.currencyEditText.length() != 0) {
-                val cleanDoubleOutput = viewBinding.currencyEditText.cleanDoubleValue
-                val cleanIntOutput = viewBinding.currencyEditText.cleanIntValue
+                val cleanDoubleOutput = viewBinding.currencyEditText.getCleanDoubleValue()
+                val cleanIntOutput = viewBinding.currencyEditText.getCleanIntValue()
 
                 writeLog("Clean Double  : $cleanDoubleOutput")
                 writeLog("Clean Integer : $cleanIntOutput")

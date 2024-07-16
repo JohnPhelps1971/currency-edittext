@@ -34,7 +34,7 @@ Code
         setContentView(view)
 
        viewBinding.currencyEditText.apply {
-            setCurrency(CurrencySymbols.GHANA)
+            setCurrency(CurrencySymbols.GHANA) or Use any symbol "$"
             setDelimiter(false)
             setSpacing(false)
             setDecimals(true)

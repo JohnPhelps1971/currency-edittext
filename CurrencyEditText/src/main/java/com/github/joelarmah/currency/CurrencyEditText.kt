@@ -76,10 +76,11 @@ class CurrencyEditText : AppCompatEditText {
 
                             if (decimals) {
                                 parsed = cleanString.toDouble()
-                                formatted = NumberFormat.getCurrencyInstance().format(parsed / 100).replace(NumberFormat.getCurrencyInstance().currency?.symbol ?: "", currencyFormat)
+                                formatted = NumberFormat.getCurrencyInstance(Locale.US).format(parsed / 100).replace("$" ?: "", currencyFormat)
+                                // formatted = currencyFormat + NumberFormat.getNumberInstance(Locale.US).format(parsed)
                             } else {
                                 val parsedInt = cleanString.toInt()
-                                formatted = currencyFormat + NumberFormat.getNumberInstance(Locale.getDefault()).format(parsedInt)
+                                formatted = currencyFormat + NumberFormat.getNumberInstance(Locale.US).format(parsedInt)
                             }
 
                             current = formatted

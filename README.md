@@ -9,7 +9,7 @@ This README file has been updated to note differences/tweaks found when attempti
 
 ## Installation
 
-Updated for AS Ladybug:
+Updated for Android Studio Ladybug:
 Add the maven & jitpack.io line as shown below, into your app's settings.gradle.kts file if you experience "Failure to resolve ..." errors, related to using this component:
 ```groovy
 ...
@@ -24,7 +24,6 @@ dependencyResolutionManagement {
 ...
 ```
 
-
 Original instructions:
 Add this in your app's build.gradle file:
 ```groovy
@@ -32,10 +31,8 @@ dependencies {
   implementation 'com.github.joelarmah:currency-edittext:1.0.0'
 }
 ```
-
-## Updated for Android Studio Ladybug:
-Perform a sync of this file, after adding the information.
-
+Updated for Android Studio Ladybug:
+Perform a sync of this file, after adding the maven & jitpack.io detail shown above. The failure to resolve error should no longer be an issue.
 
 ## Implementation
 

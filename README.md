@@ -1,5 +1,6 @@
 # Currency Edittext
 This project is a fork of the original [currency-edittext](https://github.com/AbhinayMe/currency-edittext) repository by [Abhinay Me](https://github.com/AbhinayMe) and updated by  [Joel Armah](https://github.com/joelarmah/currency-edittext).
+
 A Custom EditText implementation that allows formatting of currency-based numeric inputs.
 
 This README file has been updated to note differences/tweaks found when attempting to use this in Android Studio Ladybug (as found in the Help --> About dialog):
@@ -10,6 +11,7 @@ This README file has been updated to note differences/tweaks found when attempti
 ## Installation
 
 Updated for Android Studio Ladybug:
+
 Add the maven & jitpack.io line as shown below, into your app's settings.gradle.kts file if you experience "Failure to resolve ..." errors, related to using this component:
 ```groovy
 ...
@@ -25,14 +27,18 @@ dependencyResolutionManagement {
 ```
 
 Original instructions:
+
 Add this in your app's build.gradle file:
 ```groovy
 dependencies {
   implementation 'com.github.joelarmah:currency-edittext:1.0.0'
 }
 ```
+
 Updated for Android Studio Ladybug:
-Perform a sync of this file, after adding the maven & jitpack.io detail shown above. The failure to resolve error should no longer be an issue.
+
+Perform a sync of this file, after adding the maven & jitpack.io detail shown above. 
+The failure to resolve error should no longer be an issue after the sync has been performed.
 
 ## Implementation
 

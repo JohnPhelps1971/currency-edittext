@@ -8,8 +8,10 @@ This README file has been updated to note differences/tweaks found when attempti
 
 
 ## Installation
+
 Updated for AS Ladybug:
-Add this in your app's settings.gradle.kts file if you experience "Failure to resolve ..." errors, related to using this component:
+Add the maven & jitpack.io line as shown below, into your app's settings.gradle.kts file if you experience "Failure to resolve ..." errors, related to using this component:
+```groovy
 ...
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
@@ -20,6 +22,7 @@ dependencyResolutionManagement {
     }
 }
 ...
+```
 
 
 Original instructions:
@@ -30,8 +33,9 @@ dependencies {
 }
 ```
 
-Updated for AS Ladybug:
+## Updated for Android Studio Ladybug:
 Perform a sync of this file, after adding the information.
+
 
 ## Implementation
 

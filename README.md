@@ -1,5 +1,5 @@
 # Currency Edittext
-This project is a fork of the original [currency-edittext](https://github.com/AbhinayMe/currency-edittext) repository by [Abhinay Me](https://github.com/AbhinayMe).
+This project is a fork of the original [currency-edittext](https://github.com/AbhinayMe/currency-edittext) repository by [Abhinay Me](https://github.com/AbhinayMe) and updated by  [Joel Armah](https://github.com/joelarmah/currency-edittext).
 A Custom EditText implementation that allows formatting of currency-based numeric inputs.
 
 This README file has been updated to note differences/tweaks found when attempting to use this in Android Studio Ladybug (as found in the Help --> About dialog):

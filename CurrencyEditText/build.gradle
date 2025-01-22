@@ -52,9 +52,9 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.joelarmah'
+                groupId = 'com.github.johnphelps'
                 artifactId = 'currency-edittext'
-                version = '1.1.4'
+                version = '1.2.0'
             }
         }
     }

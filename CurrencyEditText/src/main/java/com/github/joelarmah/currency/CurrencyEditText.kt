@@ -72,11 +72,13 @@ class CurrencyEditText : AppCompatEditText {
                             }
 
                             val parsed: Double
+                            val parsed_temp: Double
                             val formatted: String
 
                             if (decimals) {
                                 parsed = cleanString.toDouble()
-                                parsed = parsed.toBigDecimal().setScale(2, RoundingMode.HALF_UP).toDouble()
+                                parsed_temp = parsed.toBigDecimal().setScale(2, RoundingMode.HALF_UP).toDouble()
+                                parsed = parsed_temp
                                 formatted = NumberFormat.getCurrencyInstance(Locale.US).format(parsed / 100).replace("$" ?: "", currencyFormat)
                                 // formatted = currencyFormat + NumberFormat.getNumberInstance(Locale.US).format(parsed)
                             } else {

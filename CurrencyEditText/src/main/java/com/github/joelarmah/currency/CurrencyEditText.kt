@@ -76,6 +76,7 @@ class CurrencyEditText : AppCompatEditText {
 
                             if (decimals) {
                                 parsed = cleanString.toDouble()
+                                parsed = parsed.toBigDecimal().setScale(2, RoundingMode.HALF_UP).toDouble()
                                 formatted = NumberFormat.getCurrencyInstance(Locale.US).format(parsed / 100).replace("$" ?: "", currencyFormat)
                                 // formatted = currencyFormat + NumberFormat.getNumberInstance(Locale.US).format(parsed)
                             } else {

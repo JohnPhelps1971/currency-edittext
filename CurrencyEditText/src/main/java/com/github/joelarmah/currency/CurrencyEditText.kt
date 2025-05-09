@@ -5,15 +5,15 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.util.AttributeSet
 import android.util.Log
-import androidx.appcompat.widget.AppCompatEditText
+import com.google.android.material.textfield.TextInputEditText
 import org.json.JSONException
 import org.json.JSONObject
 import java.text.NumberFormat
 import java.util.Locale
 import kotlin.math.roundToInt
 
-class CurrencyEditText : AppCompatEditText {
-
+//class CurrencyEditText : AppCompatEditText {
+class CurrencyEditText : TextInputEditText {
     private var current = ""
     private val editText = this
 
